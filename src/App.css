@@ -3,3 +3,13 @@ header {
   color: white;
   height: 10vh;
 }
+
+.category-buttons {
+  display: grid;
+  height: 50vw;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  border: 2px solid black;
+}
