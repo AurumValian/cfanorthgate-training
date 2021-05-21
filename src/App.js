@@ -24,14 +24,16 @@ class App extends Component {
         <header className="App-header">
           Chick-Fil-A
         </header>
-        <section className="category-buttons">
-          <Category type="Biscuits" toSubcategories={this.toSubcategories} color="blue"/>
-          <Category type="Prep" toSubcategories={this.toSubcategories}/>
-          <Category />
-          <Category />
-          <Category />
-          <Category />
-        </section>
+        {this.state.page === "main" && (
+          <section className="category-buttons">
+            <Category type="Biscuits" toSubcategories={this.toSubcategories}/>
+            <Category type="Prep" toSubcategories={this.toSubcategories}/>
+            <Category />
+            <Category />
+            <Category />
+            <Category />
+          </section>
+        )}
         {this.state.page === "sub" && (
           <section>
             {this.state.type}
