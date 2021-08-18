@@ -12,7 +12,8 @@
 }
 
 .Biscuits {
-  background-color: #74B3CE;
+  background-image: url("https://user-images.githubusercontent.com/62782385/129942618-ce36ba1c-bcd7-4aed-a0d3-4630b4c7180f.png");
+  background-size: cover;
   color: white;
   text-shadow: -1px 1px 0 #000,
                 1px 1px 0 #000,
@@ -21,7 +22,8 @@
 }
 
 .Prep {
-  background-color: #09BC8A;
+  background-image: url("https://user-images.githubusercontent.com/62782385/129942614-ac94ac48-9c79-4782-9146-d295d19db348.jpg");
+  background-size: cover;
   color: white;
   text-shadow: -1px 1px 0 #000,
                 1px 1px 0 #000,
@@ -30,7 +32,8 @@
 }
 
 .FOH {
-  background-color: #f7fa50;
+  background-image: url("https://user-images.githubusercontent.com/62782385/129942625-2e51694f-b549-495b-b5fd-42b3e317dbcc.jpg");
+  background-size: cover;
   color: white;
   text-shadow: -1px 1px 0 #000,
                 1px 1px 0 #000,
