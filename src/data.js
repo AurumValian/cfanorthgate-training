@@ -1,6 +1,6 @@
-export const categories = [
+const categories = [
   {type: "Biscuits", image: "", subcategories: [
-    { subcategory: "Biscuits", image: "" }
+    {subcategory: "Biscuits", image: "", video: ""}
   ]},
   {type: "Prep", image: "", subcategories: [
     {subcategory: "strawberries", image: "", video: ""},
@@ -9,3 +9,5 @@ export const categories = [
   ]},
   {type: "FOH", image: ""}
 ]
+
+export default categories

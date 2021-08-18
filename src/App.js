@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Category from "./Category"
+import Logo from "./Logo"
+import categories from "./data"
+
 
 class App extends Component {
   constructor() {
@@ -22,13 +25,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          Chick-Fil-A
+          <Logo />
         </header>
         {this.state.page === "main" && (
           <section className="category-buttons">
-            <Category type="Biscuits" toSubcategories={this.toSubcategories}/>
-            <Category type="Prep" toSubcategories={this.toSubcategories}/>
-            <Category />
+            {categories.map(category => {
+              return (<Category type={category.type} subcategories={category.subcategories} toSubcategories={this.toSubcategories}/>)
+            })}
             <Category />
             <Category />
             <Category />

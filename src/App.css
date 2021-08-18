@@ -1,15 +1,15 @@
 header {
-  background-color: #e60e33;
+  background-color: #e51636;
   color: white;
-  height: 10vh;
+  height: 12vh;
 }
 
 .category-buttons {
+  background-color: white;
   display: grid;
   height: 50vw;
   grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
   align-items: center;
-  border: 2px solid black;
 }
